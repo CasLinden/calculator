@@ -85,12 +85,12 @@ clickOperator()
 
 function equals(){
     if(operand1 != null && displayValue != "" && currentOperator != ""){
-    let result = operate(operand1, displayValue, currentOperator);
-    displayValue = result;
-    upperDisplayValue = "";
-    updateDisplayValue();
-    operand1 = result;
-    displayValue = "";
+        let result = operate(operand1, displayValue, currentOperator);
+        displayValue = result;
+        upperDisplayValue = "";
+        updateDisplayValue();
+        operand1 = result;
+        displayValue = "";
     }
 }
 
@@ -120,9 +120,9 @@ function clear(){
 }
 
 function addAcButton(){
-const acButton = document.querySelector('#btn1');
-acButton.addEventListener("click", e => {
-clear();
+    const acButton = document.querySelector('#btn1');
+    acButton.addEventListener("click", e => {
+        clear();
 });
 }
 addAcButton()
