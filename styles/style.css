@@ -26,6 +26,7 @@ html {
     
 }
 
+
 #display{
     width: 326px;
     height: 80px;
@@ -33,11 +34,19 @@ html {
     color:aliceblue;
     border: 8px solid #1f211f;
     display: flex;
+    flex-direction: column;
     justify-content: flex-end;
-    align-items: center;
-    font-size: 48px;
+    align-items: flex-end;
+    font-size: 38px;
     font-family: DS-DIGIB;
     padding-right: 8px;
+}
+#display-upper{
+    font-size: 24px;
+}
+
+#display-lower{
+    height: 38px;
 }
 
 #buttons-container {
